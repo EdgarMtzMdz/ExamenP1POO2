@@ -1,0 +1,15 @@
+@model ProductModel;
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<div class="text-center">
+    
+    <h1 class="display-4">Listado de Productos</h1>
+
+    <a asp-controller="Capturas" asp-action="ProductAdd"
+    class="btn btn primary mb-3">
+    Agregar Productos
+    </a>
+</div>
